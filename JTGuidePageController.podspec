@@ -17,26 +17,26 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      =  <<-DESC
+                        一个简单的导航页类
+                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/JTGuidePageController'
+  s.homepage         = 'https://github.com/taojigu/JTGuidePageController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'gujitao' => 'gujitao@dangdang.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/JTGuidePageController.git', :tag => s.version.to_s }
+  s.author           = { 'gujitao' => 'taojigu@163.com' }
+  s.source           = { :git => 'https://github.com/taojigu/JTGuidePageController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JTGuidePageController/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'JTGuidePageController' => ['JTGuidePageController/Assets/*.png']
-  # }
+s.source_files = 'JTGuidePageController/Classes/**/*.{h,m}'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#s.resource_bundles = {
+#     'JTGuidePageController' => ['JTGuidePageController/Assets/*.png']
+#   }
+
+#s.public_header_files = 'Pod/Classes/**/*.h'
+   s.frameworks = 'UIKit', 'Foundation'
+   #s.dependency 'AFNetworking', '~> 2.3'
 end
