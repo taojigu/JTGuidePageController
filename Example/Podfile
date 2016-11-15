@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JTGuidePageController_Example' do
+  pod 'JTGuidePageController', :path => '../'
+
+  target 'JTGuidePageController_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

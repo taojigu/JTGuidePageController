@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JTGuidePageController (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JTGuidePageController (from `../`)
+
+EXTERNAL SOURCES:
+  JTGuidePageController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JTGuidePageController: 79bda942ea92aa36e7dd9eaa8ab7ea02cb197b54
+
+PODFILE CHECKSUM: bf6093fd2835ed20d3fbf09ac80b3cf505067f48
+
+COCOAPODS: 1.1.1

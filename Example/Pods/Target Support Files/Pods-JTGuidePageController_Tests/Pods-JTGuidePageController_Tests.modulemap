@@ -1,0 +1,6 @@
+framework module Pods_JTGuidePageController_Tests {
+  umbrella header "Pods-JTGuidePageController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

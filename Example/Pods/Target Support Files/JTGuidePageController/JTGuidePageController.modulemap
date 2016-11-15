@@ -1,0 +1,6 @@
+framework module JTGuidePageController {
+  umbrella header "JTGuidePageController-umbrella.h"
+
+  export *
+  module * { export * }
+}
